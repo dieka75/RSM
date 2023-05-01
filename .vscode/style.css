@@ -8,3 +8,12 @@ h1 {
     color: rgb(23, 170, 23);
     background-color: coral;
 }
+
+
+
+@media only screen and (max-width: 800px) {
+    div {
+        display: block;
+        width: 100%;
+    }
+}

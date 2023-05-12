@@ -55,6 +55,7 @@ h1 {
     padding: 16px 15px;
     color: #ccc;
     margin-top: -17px;
+    z-index: 100;
   }
 
   .nav__responsive-ul {
@@ -67,10 +68,10 @@ h1 {
   }
 
   .nav__responsive-button-container {
-    
     font-size: 20px;
     padding: 6px 10px;
     color: #ccc;
+    z-index: 1;
   }
 
   .nav__responsive-li {

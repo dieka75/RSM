@@ -19,6 +19,7 @@ h2 {
     padding: 15px;
     background-color: #ddd;
     width: 100%;
+    text-align: center;
 }
 
 h3 {
@@ -45,22 +46,34 @@ p {
   background-color: #006060;
 }
 
+.nav__ul {
+  display: flex;
+  justify-content: space-around;
+  padding: 5px;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
 .nav__li {
   display: inline-block;
-  padding: 12px;
+  padding: 20px;
   color: #fff;
+  min-width: 100px;
+  
 }
 
 .nav__li a {
   color: #fff;
   text-decoration: none;
+  text-align: center;
 }
 
 .nav__li i {
   box-sizing: border-box;
-  text-align: right;
-  margin-right: 5px;
+  display: inline;
   width: 20px;
+  padding-right: 10px;
+  
 }
 
 .nav__li:hover > a {

@@ -57,9 +57,8 @@ p {
 .nav__li {
   display: inline-block;
   padding: 20px;
-  color: #fff;
-  min-width: 100px;
-  
+  color: #fff; 
+  min-width: 100px; 
 }
 
 .nav__li a {
@@ -84,8 +83,32 @@ p {
   color: #bbb;
 }
 
+.nav-comodidades {
+ border-color: #232323; 
+  
+}
+
+.nav__ul-comodidades {
+  display: flex;
+  justify-content: space-around;
+  padding: 5px;
+  flex-wrap: wrap;
+  align-items: center;
+  
+}
+
+.nav__li-comodidades {
+  display: inline-block;
+  margin: 5px;
+  color: #fff; 
+  width: 200px;
+  height: 200px; 
+  background-color: #232323;
+}
+
 .flex-container {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-around;
     margin: 30px;
 }

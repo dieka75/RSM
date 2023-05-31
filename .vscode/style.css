@@ -206,11 +206,12 @@ p {
   .aside {
     grid-row: 2 / 3;
     grid-column: 2 / 3;
-    padding: 20px;
+    padding: 40px;
     margin-block: 40px;
     margin-right: 5px;
     background-color: #232323;
     height: center;
+    
   }
 
   .aside__ul {
@@ -267,7 +268,8 @@ p {
 .flex-container-contacto {
   width: 80%;
   padding: 30px;
-  margin: 40px 50px;
+  margin: auto;
+  margin-top: 20px;
   background-color: #006060;
   width: 80%;
   max-width: 800px;

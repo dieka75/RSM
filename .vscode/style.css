@@ -338,8 +338,47 @@ p {
 
 .form__submit:hover {
   background-color: #232323;
+  transition-duration: 1s;
+  
+}
+
+.galeria {
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  
+}
+
+.imagen  {
+  width: 90%;
+  padding: 10px;
+  margin-left: 15px;
+  margin-top: 15px;
+  
+}
+
+.galeria-comodidades {
+  display: grid;
+  max-height: fit-content;
+  width: auto;
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: 150px;
+  grid-column-gap: 15px;
+  justify-content: center;
+  align-items: center;
+  max-width: 750px;
+  font-size: 1em;
+  color: #fff;
+  margin: auto;
+}
+
+.imagen-comodidades  {
+  width: 90%;
+  padding: 5px;
+  background: #006060;
+  margin: 5px;
 }
 
 ::placeholder {
   color: #ccc;
 }
+

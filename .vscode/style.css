@@ -1,6 +1,6 @@
 * {
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 100;
+  font-size: 100%;
 }
 
 body {
@@ -8,19 +8,21 @@ body {
 }
 
 h1 {
-  color: #fff;
-  background-color: #006060;
+  color: #006060;
+  background: linear-gradient(#797979, #656565);
   padding: 25px;
   text-align: left;
+  letter-spacing: 10px;
 }
 
 h2 {
   color: #006060;
   padding: 20px;
-  background-color: #ddd;
+  background: linear-gradient(#797979, #656565);
   width: 100%;
   margin-top: 45px;
   text-align: left;
+  letter-spacing: 1px;
 }
 
 h3 {
@@ -28,7 +30,7 @@ h3 {
   padding: 15px;
   margin-top: 35px;
   text-align: center;
-  background-color: #232323;
+  background: linear-gradient(#797979, #656565);
 }
 
 h4 {
@@ -37,7 +39,7 @@ h4 {
   background-color: #006060;
 }
 p {
-  color: #fff;
+  color: #ccc;
   padding: 20px;
   text-align: justify;
 }
@@ -116,8 +118,9 @@ p {
 
   .aside__ul {
     list-style: none;
-    background-color: #232323;
+    background: linear-gradient(#232323, #797979);
     margin-top: 15px;
+    padding: 25px;
   }
 
   .aside__li a {
@@ -147,7 +150,7 @@ p {
     grid-column: 1 / 3;
     grid-row: 1 / 2;
     padding: 5px;
-    background-color: #006060;
+    background: linear-gradient(#006060, #232323);
     margin: auto;
     width: 100%;
   }
@@ -210,7 +213,7 @@ p {
     padding: 40px;
     margin-block: 40px;
     margin-right: 5px;
-    background-color: #232323;
+    background: linear-gradient(#232323, #797979);
     height: center;
     
   }

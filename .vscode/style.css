@@ -16,16 +16,17 @@ h1 {
 
 h2 {
   color: #006060;
-  padding: 15px;
+  padding: 20px;
   background-color: #ddd;
   width: 100%;
+  margin-top: 45px;
   text-align: left;
 }
 
 h3 {
   color: #006060;
-  padding: 5px;
-  margin-top: 15px;
+  padding: 15px;
+  margin-top: 35px;
   text-align: center;
   background-color: #232323;
 }
@@ -358,7 +359,7 @@ p {
 .imagen  {
   width: 90%;
   padding: 10px;
-  margin: 5px;
+  margin: 30px 5px 5px 5px;
 }
 
 .galeria-comodidades {
